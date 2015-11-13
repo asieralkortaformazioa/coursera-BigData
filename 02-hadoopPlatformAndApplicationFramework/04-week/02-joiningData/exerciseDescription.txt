@@ -1,0 +1,3 @@
+What is the total number of viewers for shows on ABC?
+
+(In pseudo-SQL it migth be something like: Select sum( viewer count) from File A, File B where FileA.TV show = FileB.TV show and FileB.Channel='ABC' grouped by TV show)

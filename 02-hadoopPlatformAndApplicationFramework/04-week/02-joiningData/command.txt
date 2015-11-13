@@ -1,0 +1,1 @@
+ cat join2_gen*.txt | ./join2_mapper.py | sort | ./join2_reducer.py
